@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "macFrameworkPath": [
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/local/opt/llvm/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "clang-x64",
+            "compilerArgs": [
+                "-I/usr/local/include/SDL2",
+                "-D_THREAD_SAFE ",
+                "-L/usr/local/lib ",
+                "-lSDL2-I/usr/local/include/SDL2 ",
+                "-D_THREAD_SAFE ",
+                "-L/usr/local/lib ",
+                "-lSDL2"
+            ],
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}

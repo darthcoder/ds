@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/Users/abasit/projects/ds/ds/build",
+  "command": "/usr/local/opt/llvm/bin/clang-10   -I/usr/local/include/SDL2 -D_THREAD_SAFE -L/usr/local/lib -lSDL2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu11 -o CMakeFiles/ds.dir/main.c.o   -c /Users/abasit/projects/ds/ds/main.c",
+  "file": "/Users/abasit/projects/ds/ds/main.c"
+},
+{
+  "directory": "/Users/abasit/projects/ds/ds/build",
+  "command": "/usr/local/opt/llvm/bin/clang-10   -I/usr/local/include/SDL2 -D_THREAD_SAFE -L/usr/local/lib -lSDL2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu11 -o CMakeFiles/ds.dir/function.c.o   -c /Users/abasit/projects/ds/ds/function.c",
+  "file": "/Users/abasit/projects/ds/ds/function.c"
+}
+]
