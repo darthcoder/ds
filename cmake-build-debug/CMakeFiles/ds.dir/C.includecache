@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/abasit/projects/ds/function.h
+
+/Users/abasit/projects/ds/main.c
+stdio.h
+-
+function.h
+/Users/abasit/projects/ds/function.h
+SDL.h
+/Users/abasit/projects/ds/SDL.h
+

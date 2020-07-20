@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc -I/usr/local/include/SDL2 -D_THREAD_SAFE -L/usr/local/lib -lSDL2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/ds.dir/main.c.o CMakeFiles/ds.dir/function.c.o  -o ds 
